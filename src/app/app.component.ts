@@ -9,7 +9,7 @@ export class AppComponent {
     { title: 'Categorías', url: 'lista-productos/', icon: 'mail' },
     { title: 'Ofertas', url: '/folder/ofertas', icon: 'paper-plane' },
     { title: 'Historial', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Ayuda', url: '/folder/Archived', icon: 'help-circle-outline' },
+    { title: 'Ayuda', url: '/folder/Ayuda', icon: 'accessibility' },
     { title: 'Lista de productos', url: '/folder/Trash', icon: 'trash' },
 
   ];
