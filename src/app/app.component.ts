@@ -10,7 +10,7 @@ export class AppComponent {
     { title: 'Ofertas', url: 'ofertas/', icon: 'paper-plane' },
     { title: 'Historial', url: 'historial/', icon: 'refresh' },
     { title: 'Ayuda', url: '/folder/Ayuda', icon: 'information-circle' },
-    { title: 'Menú', url: '/folder/Platos', icon: 'list' },
+    { title: 'Menú', url: 'menu/', icon: 'list' },
     { title: 'Login', url: 'login/', icon: 'log-out'},
     { title: 'Registro', url:'register/', icon:'log-in'},
 

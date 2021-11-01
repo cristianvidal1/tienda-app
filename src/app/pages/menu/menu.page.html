@@ -5,5 +5,81 @@
 </ion-header>
 
 <ion-content>
-  
+  <ion-grid>
+    <ion-row >
+      <ion-col size="6" size-md="12">
+        <ion-card color="primary"><!--Primer card-->
+          <ion-item>
+            <ion-icon name="restaurant-outline" slot="start" color="primary"></ion-icon>
+            <ion-label >Asado Argentino</ion-label>
+            <ion-button fill="outline" slot="end" class="boton-precio">Precio: 1600$</ion-button>
+          </ion-item>
+          <ion-card-content color="">
+          <ion-col>
+            <div class="imagen-container">
+              <img class="imagen"src="/assets/imagenes/asado-argentino.jpg"/>
+            </div>
+          </ion-col>
+            <ion-col col>
+              <div class="texto-derecha">
+              Ingredientes:
+              <br>
+              Carne
+              <br>
+              Chorizo
+              <br>
+              Matambre
+              <br>
+              Asado de tira
+              </div>
+            </ion-col>
+            <ion-col col-6>
+              <div class="texto-derecha">
+              Acompañantes:
+              <br>
+              Ensalada
+              <br>
+              Papas o verduras a la parrilla
+              <br>
+              Chimichurri
+              <br>
+              Pan tostado
+              </div>
+            </ion-col>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="12">
+        <ion-card color="primary"> <!--segunda card-->
+          <ion-item>
+            <ion-icon name="restaurant-outline" slot="start" color="primary"></ion-icon>
+              <ion-label>Paella Española</ion-label>
+            <ion-button fill="outline" slot="end" class="boton-precio">Precio: 1200$</ion-button>
+          </ion-item>
+          <ion-card-content><!--Contenidos de la card-->
+            <div class="imagen-container">
+              <img class="imagen"src="/assets/imagenes/España.jpg"/>
+            </div>
+            <div class="texto-derecha">
+              Ingredientes:
+              <br>
+              Arroz
+              <br>
+              Tomates picados
+              <br>
+              Aceite de oliva
+              <br>
+              250 g de mejillones
+              <br>
+              12 camarones
+              <br>
+              1,5 lt de caldo de marisco
+              <br>
+              2 cucharadas de pimentón dulce
+              </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
